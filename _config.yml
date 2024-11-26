@@ -1,7 +1,39 @@
+# source:      .
+# destination: ./_site
+# includes:    ./_includes
+
+# collections:
+#   projects:
+#     output: true
+
+# Site settings
+title: Urvi Mehta | AI & Data Science Portfolio
+description: Portfolio website of Urvi Mehta, AI Researcher and Data Scientist
+
+# Personal details
+baseurl: "/urvimehta.github.io"  # Replace with your GitHub Pages repository name
+url: "https://urvimehta.github.io"  # Your GitHub Pages site URL
+
+# Build settings
 source:      .
 destination: ./_site
 includes:    ./_includes
 
+# Collections
 collections:
   projects:
     output: true
+
+# Social media and contact links
+email: urvimehta48@gmail.com
+linkedin: https://www.linkedin.com/in/your-linkedin-username
+github: https://github.com/your-github-username
+google_scholar: https://scholar.google.com/citations?user=your-google-scholar-id
+
+# Plugins (if using any Jekyll plugins)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
